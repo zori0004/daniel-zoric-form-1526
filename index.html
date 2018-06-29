@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--form>fieldset>legend+.box*4>label+input-->
+    <form action="">
+        <fieldset>
+            <legend>Form Assignment</legend>
+            <div class="box box-top-left">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name">
+            </div>
+            <div class="box box-top-right">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </div>
+            <div class="box">
+                <label for="msg">Message</label>
+                <textarea id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <div class="box">
+                <input type="button" value="Submit" id="button">
+            </div>
+        </fieldset>
+    </form>
+    
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
